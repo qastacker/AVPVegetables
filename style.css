@@ -688,3 +688,36 @@ section {
         margin: 2rem auto;
     }
 }
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.headerlogo{
+    max-height: 70px;
+    width: 250px;
+    border: 2px
+}
+
+.footerlogo{
+    max-height: 90px;
+    width: 200px;
+    border: 2px
+}
